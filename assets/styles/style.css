@@ -1,0 +1,32 @@
+
+
+header .logos{
+    width: 100px;
+    height: 100px;
+}
+
+.logo-heading{
+    display: flex;
+    text-wrap: wrap;
+    align-items: center;
+}
+
+.logo-heading h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .logo-heading h2{
+        font-size: 0.6em;
+        text-align: center;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-heading h2{
+        font-size: 1em;
+        text-align: center;
+    }
+    
+}
