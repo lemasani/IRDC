@@ -21,6 +21,12 @@
     animation: .8s ease infinite alternate spinner;
 }
 
+figcaption{
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
 .hidden{
     opacity: 0;
     visibility: hidden;
