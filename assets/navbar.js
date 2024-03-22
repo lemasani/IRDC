@@ -43,11 +43,11 @@ navItems.innerHTML = `
             Research
         </a>
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Fieldworks</a></li>
+            <li class="nav-item"><a class="dropdown-item" href="../research/research.html">Fieldworks</a></li>
             <li><a class="dropdown-item" href="#">Working papers</a></li>
             <li><a class="dropdown-item" href="#">Publications</a></li>
-            <li><a class="dropdown-item" href="#">Outreach</a></li>
-            <li><a class="dropdown-item" href="#">Symposyium and conferences</a></li>
+            <li><a class="dropdown-item" href="/research/outreach.html">Outreach</a></li>
+            <li><a class="dropdown-item" href="/research/symbosium.html">Symposyium and conferences</a></li>
         </ul>
     </li>
     <li class="nav-item dropdown">
@@ -115,7 +115,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 e.preventDefault();
                 console.log('you are in the same page');
             }else{
-               location.href=href;    
+               location.href=href;   
+               console.log('you are in a different page'); 
             }
             
         });
