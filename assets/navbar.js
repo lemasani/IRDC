@@ -33,7 +33,7 @@ navItems.innerHTML = `
 <div class="nav-items collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
 <ul class="navbar-nav">
     <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
     </li>
     <li class="nav-item">
     <a class="nav-link" href="../about.html">About us</a>

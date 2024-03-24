@@ -99,6 +99,9 @@ picture img{
     }
     
 }   
+
+/* navbar style */
+
 .navbar{
     font-family: lora;
 }
@@ -117,11 +120,24 @@ picture img{
     transition: 0.5s;
 
 }
-.active{
-    color: red;
-    font-weight: bold;
 
+.navbar-toggler{
+    background-color: #1D67AF;
+    border: none;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dropdown-menu{
+    background-color: #99c9fa;
+    border: none;
+}
+
+/* navbar style ends */
 
 /* 
 .card{
